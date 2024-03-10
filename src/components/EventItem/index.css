@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.event-item {
+  width: 45%;
+  list-style: none;
+  margin-right: 24px;
+  margin-bottom: 32px;
+}
+
+.event-button {
+  background-color: transparent;
+  border: none;
+  padding: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.event-image {
+  width: 100%;
+  border: 2px solid transperent;
+  border-radius: 8px;
+  max-width: 460px;
+}
+.active {
+  border-color: #2dd4bf;
+  border-radius: 10px;
+}
+.name {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+  margin-top: 12px;
+}
+.location {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+  margin-top: 4px;
+}
